@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.env
+.DS_Store
+*.log
+
+# Frontend specific (e.g., React, Vue, Angular)
+/frontend/build/
+/frontend/dist/
+/frontend/out/
+/frontend/.next/ # Next.js specific
+/frontend/coverage/
+
+# Backend specific (e.g., Node.js, Python)
+/backend/node_modules/ # If backend is Node.js
+/backend/venv/ # Python virtual environment
+/backend/__pycache__/ # Python compiled files
+/backend/*.pyc
+/backend/*.sqlite3 # Django/Flask database
+/backend/.env # Backend environment variables
+/backend/dist/ # If backend builds to a dist folder
+/backend/logs/
+
+# OS and Editor specific
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
